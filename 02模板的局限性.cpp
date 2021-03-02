@@ -51,7 +51,7 @@ void test12() {
 	cout << myCompare(p1, p2) << endl;//1
 }
 
-int main() {
+int mfun2() {
 	test11();
 	test12();
 	system("pause");

@@ -21,5 +21,8 @@
     <ClCompile Include="02模板的局限性.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03类模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
