@@ -142,6 +142,13 @@
     <ClCompile Include="01函数模板.cpp" />
     <ClCompile Include="02模板的局限性.cpp" />
     <ClCompile Include="03类模板.cpp" />
+    <ClCompile Include="04类模板成员函数的类外实现.cpp" />
+    <ClCompile Include="05类模板案例.cpp" />
+    <ClCompile Include="cat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cat.hpp" />
+    <ClInclude Include="MyArray.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

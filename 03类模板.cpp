@@ -126,7 +126,7 @@ void test36() {
 }
 
 
-int main() {
+int mfun3() {
 	test31();
 	test32();
 	test33();

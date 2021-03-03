@@ -24,5 +24,22 @@
     <ClCompile Include="03类模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="04类模板成员函数的类外实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05类模板案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyArray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
