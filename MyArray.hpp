@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+
 template<class T>
 class MyArray {
 public:
@@ -46,6 +47,38 @@ public:
 			this->pAddress[i] = arr.pAddress[i];
 		}
 		return *this;
+	}
+
+	//尾插法
+	void pushBack(const T &val) {
+		//判读容量
+		if (this->m_Capacity == this->size) {
+			return;
+		}
+		this->pAddress[this->size] = val;//数组末尾加入数据
+		this->size++;//更新大小
+	}
+
+	//尾删除
+	void pop_back() {
+		//不能访问即可
+		if (this->size == 0) {
+			return;
+		}
+		this->size--;
+	}
+
+	//通过下标访问数组元素 重载【】
+	T& operator[](int index) {//返回T& 可以作为左值进行引用
+		return this->pAddress[index];
+	}
+
+	int getCapacity() {
+		return this->m_Capacity;
+	}
+
+	int get_size() {
+		return this->size;
 	}
 
 	~MyArray() {
