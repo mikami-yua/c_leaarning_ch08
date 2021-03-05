@@ -144,6 +144,7 @@
     <ClCompile Include="03类模板.cpp" />
     <ClCompile Include="04类模板成员函数的类外实现.cpp" />
     <ClCompile Include="05类模板案例.cpp" />
+    <ClCompile Include="06vector存放内置数据类型.cpp" />
     <ClCompile Include="cat.cpp" />
   </ItemGroup>
   <ItemGroup>

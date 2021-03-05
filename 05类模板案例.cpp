@@ -44,27 +44,27 @@ void test52() {
 
 }
 
-void test53() {
-	MyArray<Cat<string, int>> arr(10);
-	Cat<string, int> c1("nico1", 1);
-	Cat<string, int> c2("nico2", 2);
-	Cat<string, int> c3("nico3", 5);
+//void test53() {
+//	MyArray<Cat<string, int>> arr(10);
+//	Cat<string, int> c1("nico1", 1);
+//	Cat<string, int> c2("nico2", 2);
+//	Cat<string, int> c3("nico3", 5);
+//
+//	//数据插入
+//	arr.pushBack(c1);
+//	arr.pushBack(c2);
+//	arr.pushBack(c3);
+//
+//	printCatArray(arr);
+//	cout << arr.getCapacity() << endl;
+//	cout << arr.get_size() << endl;
+//
+//}
 
-	//数据插入
-	arr.pushBack(c1);
-	arr.pushBack(c2);
-	arr.pushBack(c3);
-
-	printCatArray(arr);
-	cout << arr.getCapacity() << endl;
-	cout << arr.get_size() << endl;
-
-}
-
-int main() {
+int mfun5() {
 	test51();
 	test52();
-	test53();
+	//test53();
 
 	system("pause");
 	return 0;
